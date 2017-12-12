@@ -1,0 +1,463 @@
+
+/*		Fonts		*/
+
+@font-face {
+    font-family: 'lato-black';
+    src: url('../fonts/lato-black.eot');
+    src: url('../fonts/lato-black.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-black.woff') format('woff'),
+         url('../fonts/lato-black.ttf') format('truetype'),
+         url('../fonts/lato-black.svg#LatoBlack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'lato-light';
+    src: url('../fonts/lato-light.eot');
+    src: url('../fonts/lato-light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-light.woff') format('woff'),
+         url('../fonts/lato-light.ttf') format('truetype'),
+         url('../fonts/lato-light.svg#LatoLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'lato-bold';
+    src: url('../fonts/lato-bold.eot');
+    src: url('../fonts/lato-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-bold.woff') format('woff'),
+         url('../fonts/lato-bold.ttf') format('truetype'),
+         url('../fonts/lato-bold.svg#LatoBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'lato-hairline';
+    src: url('../fonts/lato-hairline.eot');
+    src: url('../fonts/lato-hairline.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-hairline.woff') format('woff'),
+         url('../fonts/lato-hairline.ttf') format('truetype'),
+         url('../fonts/lato-hairline.svg#LatoHairline') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'raleway-bold';
+    src: url('../fonts/raleway-bold.eot');
+    src: url('../fonts/raleway-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-bold.woff') format('woff'),
+         url('../fonts/raleway-bold.ttf') format('truetype'),
+         url('../fonts/raleway-bold.svg#RalewayBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'raleway-light';
+    src: url('../fonts/raleway-light.eot');
+    src: url('../fonts/raleway-light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-light.woff') format('woff'),
+         url('../fonts/raleway-light.ttf') format('truetype'),
+         url('../fonts/raleway-light.svg#RalewayLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'raleway-regular';
+    src: url('../fonts/raleway-regular.eot');
+    src: url('../fonts/raleway-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-regular.woff') format('woff'),
+         url('../fonts/raleway-regular.ttf') format('truetype'),
+         url('../fonts/raleway-regular.svg#RalewayRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'raleway-semibold';
+    src: url('../fonts/raleway-semibold.eot');
+    src: url('../fonts/raleway-semibold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-semibold.woff') format('woff'),
+         url('../fonts/raleway-semibold.ttf') format('truetype'),
+         url('../fonts/raleway-semibold.svg#RalewaySemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+/*  Reset Default  */
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+hr {
+  border: 1px solid #ee1c23;
+}
+
+.row{
+	padding: 0 20px;
+}
+
+.mean_title {
+	font-size: 30px;
+	font-family: "raleway-light", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+  color: #000000;
+}
+
+*::selection {
+    color: #fff;
+    background: rgba(188,163,124,1);
+    text-shadow: none;
+}
+
+
+/* HEADER MENU */
+
+header .top-bar li {
+  padding-top: 15px;
+  font-size: 19px;
+  color: #fff;
+}
+
+header .top-bar li a {
+  color: #fff;
+  transition: all 0.5s;
+}
+
+header .top-bar li a:hover {
+  border: 1px solid #fff;
+  transition: all 0.5s;
+}
+
+.menu .menu-text {
+  padding: 0 20px;
+}
+
+.top-bar, .top-bar ul {
+  background: rgba(133, 116, 92, 0.99);
+}
+
+.top-bar {
+  padding: 0;
+}
+
+.off-canvas ul {
+  margin-top: 70px;
+  background: rgba(133, 116, 92, 0.99);
+}
+
+.off-canvas li {
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 19px;
+  background: rgba(133, 116, 92, 0.99);
+}
+
+.off-canvas li:hover {
+  background: #fff;
+}
+
+.off-canvas a:hover {
+  color: rgba(133, 116, 92, 0.99);
+}
+
+.off-canvas li a {
+  color: #fff;
+}
+
+header img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.title-bar .menu-icon {
+    margin-right: 2rem;
+}
+
+.off-canvas, .off-canvas-content .title-bar  {
+  background: rgba(133, 116, 92, 0.99);
+}
+
+.off-canvas .title-bar-title {
+  right: 0;
+}
+
+.close-button, .close-button.medium {
+    left: 1rem;
+    top: 20px;
+    font-size: 3em;
+    line-height: 1;
+  }
+
+  .menu-icon {
+    width: 29px;
+  }
+
+
+
+/* SLIDER */
+
+.orbit {
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+}
+
+.orbit img {
+  width: 100%;
+  max-height: 600px;
+}
+
+.orbit h2 {
+  position: absolute;
+  top: 25%;
+  left: 80px;
+  width: 600px;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.orbit .button {
+  width: 200px;
+  padding: 15px;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 800;
+  background: #ee1c23;
+  text-transform: uppercase;
+}
+
+.orbit .button:hover {
+  background: #bd0d0a;
+  color: #fff;
+}
+
+.orbit-bullets {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.orbit-bullets button {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(133, 116, 92, 0.99);
+}
+
+.orbit-bullets button.is-active {
+  background-color: #fff;
+}
+
+.orbit-bullets button:hover {
+  background-color: #fff;
+}
+
+
+
+/* PRESENTATION */
+
+.presentation {
+  background: url("../img/bg-heart.png") no-repeat;
+  background-color: #fff;
+  padding: 50px 20px;
+}
+
+.presentation .titre {
+  text-align: center;
+}
+
+.presentation .titre img {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.presentation .txt-1 {
+  padding-right: 50px;
+}
+
+.btn {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.presentation .button {
+  width: 250px;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 800;
+  background: rgba(133, 116, 92, 0.99);
+}
+
+.presentation .button:hover {
+  background: none;
+  color: rgba(133, 116, 92, 0.99);
+  border: 1px solid rgba(133, 116, 92, 0.99);
+}
+
+
+
+/* OFFRE WEEKEND CUPIDON */
+
+.cupidon {
+  background-color: #fff;
+  background: url("../img/bg-heart-cupidon.png") no-repeat bottom left;
+}
+
+.cupidon .mean_title {
+  text-align: center;
+  color: #ee1c23;
+}
+
+.icon {
+  margin-top: 10px;
+}
+
+.icon p {
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.icon img {
+  width: 100px;
+  transition: all 0.4s;
+}
+
+.icon img:hover {
+ transform: rotate(10deg);
+}
+
+/* HOVER */
+.hover08 img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover08 img:hover {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+
+
+/* COCON */
+
+.cocon {
+  background: rgba(133, 116, 92, 0.99);
+  color: #fff;
+  padding: 40px;
+}
+
+.cocon h2 {
+  color: #fff;
+}
+
+.cocon p {
+  margin-left: 20px;
+}
+
+
+
+/*    Footer    */
+
+footer {
+	background: #bca37c;
+}
+
+
+
+/* BACK TO TOP */
+
+  .back-top {
+  position: fixed;
+  width: 40px;
+  bottom:20px;
+  right: 2%;
+  z-index: 100;
+}
+  .back-top img {
+  width: 40px;
+}
+
+  /* Zoom BACK TO TOP */
+
+.hover01 img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 img:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+
+
+/*    RESPONSIVE    */
+
+  @media screen and (max-width: 65em){
+
+    .presentation {
+      background: url("../img/bg-heart2.png") no-repeat;
+    }
+
+    .orbit h2 {
+      top: 10%;
+      left: 80px;
+      width: 400px;
+      color: #fff;
+      font-size: 30px;
+    }
+
+    header img {
+      width: 150px;
+    }
+
+    header .top-bar li {
+      font-size: 17px;
+      padding-top: 5px;
+    }
+  }
+
+  @media screen and (max-width: 40em){
+
+    .orbit h2 {
+      top: 10px;
+      left: 50px;
+      width: 300px;
+      color: #fff;
+      font-size: 20px;
+    }
+
+    .orbit .button {
+      width: 150px;
+      padding: 10px;
+      margin-top: 20px;
+      font-size: 17px;
+    }
+  }
